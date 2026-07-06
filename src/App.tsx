@@ -2646,7 +2646,7 @@ export default function App() {
               <label className="block text-sm font-bold text-gray-700 dark:text-gray-300 mb-2">أدخل اسم الطالب/الطالبة لإصدار الشهادة:</label>
               <input 
                 type="text" 
-                placeholder="مثال: محمد هشام العفندي"
+                placeholder="مثال: محمد هشام"
                 value={studentName}
                 onChange={(e) => setStudentName(e.target.value)}
                 className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl py-3 px-4 text-gray-800 dark:text-white focus:outline-none focus:border-amber-400 font-bold text-center"
